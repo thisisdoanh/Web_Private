@@ -1,0 +1,42 @@
+*{
+    padding:0;
+    margin: 0;
+}
+.menu{
+    width:100%;
+    height:100px;
+    background-color: aquamarine;
+}
+ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    font-size: 50px;
+}
+.cha:hover .con{
+    display: flex;
+    
+}
+.cha{
+    position: relative;
+}
+.con{
+    display: none;
+
+    flex-direction: column;
+    position: absolute;
+    top:100px;
+}
+
+.con li{
+    background-color: blueviolet;
+    width: 180px;
+}
